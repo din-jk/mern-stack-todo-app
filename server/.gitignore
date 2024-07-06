@@ -1,0 +1,68 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing session data
+sessions/
+
+# Environment variables
+.env
+
+# Output of npm commands
+npm-debug.log
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Yarn integrity file
+.yarn-integrity
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled binary addons (Node-gyp/Node-waf)
+build/
+
+# Dependency directories created by bundlers
+bower_components/
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Parcel cache directory
+.cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt/
+
+# vuepress build output
+.vuepress/dist/
+
+# Serverless directories
+.serverless/
+
+# TypeScript build output
+/dist/
+
+# Firebase local emulator data
+.firebase/
