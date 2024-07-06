@@ -1,7 +1,7 @@
 # MERN Todo Application
 
 ## Overview
-This is a MERN stack (MongoDB, Express, React, Node.js) application for managing todos. It allows users to add, update, delete, and filter tasks. The application features a clean and intuitive user interface with functionalities such as pagination and task status filtering.
+This is a MERN stack (MongoDB, Express, React, Node.js) application for managing todos. It integrates Redux for state management on the frontend, allowing users to add, update, delete, and filter tasks. The application features a clean and intuitive user interface with functionalities such as pagination and task status filtering.
 
 ## Features
 - Add new tasks
@@ -71,7 +71,6 @@ This is a MERN stack (MongoDB, Express, React, Node.js) application for managing
   URL Parameters:
   - `id`: ID of the todo to delete
 
-
 ## Folder Structure
 
 ### Backend
@@ -88,7 +87,6 @@ This is a MERN stack (MongoDB, Express, React, Node.js) application for managing
 - `src/App.js`: Main application component
 - `src/index.js`: Entry point for the React application
 
-
 ## Running the Application
 
 1. Ensure MongoDB is running and accessible.
@@ -101,7 +99,6 @@ This is a MERN stack (MongoDB, Express, React, Node.js) application for managing
    cd client
    npm start
 4. Open your browser and navigate to http://localhost:3000
-
 
 ## Dependencies
 
@@ -119,7 +116,6 @@ This is a MERN stack (MongoDB, Express, React, Node.js) application for managing
 - `@reduxjs/toolkit`
 - `react-redux`
 - `tailwindcss`
-
 
 ## License
 
